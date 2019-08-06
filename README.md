@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/deda128a2434498fba079138b4eac9c0)](https://www.codacy.com/app/ocular-d/api-demo-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ocular-d/api-demo-docs&amp;utm_campaign=Badge_Grade)
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -29,7 +30,8 @@
 
 ## About
 
-This repository contains example APIs ([OAS](https://en.wikipedia.org/wiki/OpenAPI_Specification "Link to OAS on Wikipedia")) and related documentation written in [Markdown](https://en.wikipedia.org/wiki/Markdown "Link to Wikipedia").
+This repository contains example APIs ([OAS](https://en.wikipedia.org/wiki/OpenAPI_Specification "Link to OAS on Wikipedia"))
+and related documentation written in [Markdown](https://en.wikipedia.org/wiki/Markdown "Link to Wikipedia").
 
 It is used to showcase *Docs As Code* and *DocOps*.
 
