@@ -33,8 +33,6 @@
 This repository contains example APIs ([OAS](https://en.wikipedia.org/wiki/OpenAPI_Specification "Link to OAS on Wikipedia"))
 and related documentation written in [Markdown](https://en.wikipedia.org/wiki/Markdown "Link to Wikipedia").
 
-It is used to showcase *Docs As Code* and *DocOps*.
-
 ## Contributing
 
 We are a community effort, and everybody is most welcome to participate!
