@@ -45,4 +45,5 @@ Distributed under the [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.
 
 ## Credits
 
+- [Plone Community](https://plone.org "Link to website of Plone")
 - [Pronovix](https://pronovix.com/ "Link to Pronovix website")

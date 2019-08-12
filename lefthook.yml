@@ -3,4 +3,4 @@ pre-push: # githook name
     editorial-audit: # command name
       files: git diff --name-only HEAD @{push}
       glob: "*.md" # glob filter for list of files
-      run: vale # command for execution
+      run: vale {files}
