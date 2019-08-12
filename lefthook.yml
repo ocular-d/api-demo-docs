@@ -1,0 +1,5 @@
+pre-push: # githook name
+  commands: # list of commands
+    editorial-audit: # command name
+      glob: "*.md" # glob filter for list of files
+      run: vale # command for execution
