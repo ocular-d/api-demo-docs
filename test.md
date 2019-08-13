@@ -1,5 +1,0 @@
-# Test
-
-A test.
-
-Yes

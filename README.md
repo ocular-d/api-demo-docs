@@ -33,6 +33,16 @@
 This repository contains example APIs ([OAS](https://en.wikipedia.org/wiki/OpenAPI_Specification "Link to OAS on Wikipedia"))
 and related documentation written in [Markdown](https://en.wikipedia.org/wiki/Markdown "Link to Wikipedia").
 
+### Repository Structure
+
+APIs are located in the directory `api`.
+
+This repository follows are *multi file approach* for APIs.
+API spec and docs (Markdown) are as separate files.
+
+The `assets` directory is used for *static* files, which are not related to APIs (documentation), like images used in the README.
+
+
 ## Contributing
 
 We are a community effort, and everybody is most welcome to participate!
