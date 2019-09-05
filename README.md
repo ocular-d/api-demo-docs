@@ -42,7 +42,6 @@ API spec and docs (Markdown) are as separate files.
 
 The `assets` directory is used for *static* files, which are not related to APIs (documentation), like images used in the README.
 
-
 ## Contributing
 
 We are a community effort, and everybody is most welcome to participate!
