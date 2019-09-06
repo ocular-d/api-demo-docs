@@ -1,7 +1,7 @@
 # Overview
 
-Most applications will use an existing [wrapper library](https://developer.github.com/libraries/ "Link to docs about libaries") in the language of your choice,
-but it's important to familiarize yourself with the underlying API HTTP methods first.
+Most applications will use an existing [wrapper library](https://developer.github.com/libraries/ "Link to docs about libraries")
+in the language of your choice, but it's important to familiarize yourself with the underlying API HTTP methods first.
 
 There's no better way to kick the tires than through [cURL](http://curl.haxx.se/ "Link to cUrl").
 
