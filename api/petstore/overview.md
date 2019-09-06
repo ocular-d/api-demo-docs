@@ -12,4 +12,4 @@ The Petstore API differs for every account as we release new versions and tailor
 
 Log in to see docs customized to your version of the API, with your test key and data.
 
-Subscribe to [Petstore's API announce mailing list](https://github.com/OAI/OpenAPI-Specification) for updates.
+Subscribe to [Petstore's API announce mailing list](https://github.com/OAI/OpenAPI-Specification "Link to GitHub repository") for updates.
