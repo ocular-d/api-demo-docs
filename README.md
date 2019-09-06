@@ -33,6 +33,8 @@
 This repository contains example APIs ([OAS](https://en.wikipedia.org/wiki/OpenAPI_Specification "Link to OAS on Wikipedia"))
 and related documentation written in [Markdown](https://en.wikipedia.org/wiki/Markdown "Link to Wikipedia").
 
+The documentation of the example APIs is inspired by [Stripe](https://stripe.com/docs/api) and [GitHub](https://developer.github.com/v3/guides/getting-started/).
+
 ### Repository Structure
 
 APIs are located in the directory `api`.
@@ -56,3 +58,5 @@ Distributed under the [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.
 
 - [Plone Community](https://plone.org "Link to website of Plone")
 - [Pronovix](https://pronovix.com/ "Link to Pronovix website")
+- [Stripe](https://stripe.com/docs/api)
+- [GitHub](https://developer.github.com/v3/guides/getting-started/)
