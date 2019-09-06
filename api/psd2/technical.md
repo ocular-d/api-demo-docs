@@ -1,27 +1,35 @@
-# Documentation
+# Overview
 
-API documentation describes what services an API offers and how to use those services, aiming to cover everything a client would need to know for practical purposes.
+Most applications will use an existing [wrapper library](https://developer.github.com/libraries/ "Link to docs about libaries") in the language of your choice,
+but it's important to familiarize yourself with the underlying API HTTP methods first.
 
-Documentation is crucial for the development and maintenance of applications using the API.
-API documentation is traditionally found in documentation files but can also be found in social media such as blogs, forums, and Q&A websites.
+There's no better way to kick the tires than through [cURL](http://curl.haxx.se/ "Link to cUrl").
 
-Traditional documentation files are often presented via a documentation system, such as [Markdown](https://en.wikipedia.org/wiki/Markdown "Link to Wikipedia").
+If you are using an alternative client, note that you are required to send a valid
+[User Agent header](https://developer.github.com/v3/#user-agent-required "Link to docs") in your request.
 
-The types of content included in the documentation differs from API to API.
+## Hello World
 
-In the interest of clarity, API documentation may include a description of classes and methods in the API as well as typical usage scenarios, code snippets and design rationales.
+Let's start by testing our setup. Open up a command prompt and enter the following command:
 
-Restrictions and limitations on how the API can be used are also covered by the documentation.
+```shell
+curl https://api.github.com/zen
+Keep it logically awesome.
+```
 
-For instance, documentation for an API function could note that its parameters cannot be null, that the function itself is not thread safe,or that a decrement and cancel protocol averts self-trading.
+The response will be a random selection from our design philosophies.
 
-Because API documentation tends to be comprehensive, it is a challenge for writers to keep the documentation updated and for users to read it carefully, potentially yielding bugs.
+Next, let's `GET` [Chris Wanstrath's](https://github.com/defunkt "Link to https://github.com/defunkt")
+[GitHub profile](https://developer.github.com/v3/users/#get-a-single-user "Link to API docs"):
 
-API documentation can be enriched with metadata information like Java annotations.
-This metadata can be used by the compiler, tools, and by the run-time environment to implement custom behaviors or custom handling.
-
-It is possible to generate API documentation in data-driven manner.
-
-By observing a large number of programs that use a given API, it is possible to infer the typical usages, as well the required contracts and directives.
-
-Then, templates can be used to generate natural language from the mined data.
+```json
+# GET /users/defunkt
+curl https://api.github.com/users/defunkt
+{
+  "login": "defunkt",
+  "id": 2,
+  "url": "https://api.github.com/users/defunkt",
+  "html_url": "https://github.com/defunkt",
+  ...
+}
+```
