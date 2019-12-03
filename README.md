@@ -9,7 +9,7 @@
   <h3 align="center">API Demo Docs</h3>
 <!-- vale on -->
   <p align="center">
-    Example API and related documentation for demos and DocOps showcases
+    Example API and related documentation for demos and Documentation showcases
     <br />
     <a href="https://github.com/ocular-d/api-demo-docs"><strong>Explore the docs »</strong></a>
     <br />
