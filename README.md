@@ -5,9 +5,9 @@
   <a href="https://github.com/ocular-d/api-demo-docs">
     <img src="assets/ocular-d-logo.png" alt="Logo" width="80" height="80">
   </a>
-
+<!-- vale off -->
   <h3 align="center">API Demo Docs</h3>
-
+<!-- vale on -->
   <p align="center">
     Example API and related documentation for demos and DocOps showcases
     <br />
