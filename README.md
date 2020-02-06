@@ -37,7 +37,7 @@ The documentation of the example APIs is inspired by [Stripe](https://stripe.com
 
 ### Repository Structure
 
-APIs are located in the directory `api`.
+APIs are located in the directory `spec`.
 
 This repository follows are *multi file approach* for APIs.
 API spec and docs (Markdown) are as separate files.
