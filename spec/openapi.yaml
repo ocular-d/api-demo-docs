@@ -1,7 +1,7 @@
 # This is an **example** API to demonstrate features of OpenAPI specification.
 # It doesn't cover all OpenAPI features. For more full example check out: https://github.com/APIs-guru/petstore_extended
 
-openapi: 3.0.0
+openapi: 3.0.3
 info:
   version: '1.0.0' # Your API version
   # It can be any string but it is better to use semantic versioning: http://semver.org/

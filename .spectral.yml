@@ -1,0 +1,30 @@
+extends: [[spectral:oas, all]]
+rules:
+  # Default spectral OAS rules
+  # https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/reference/openapi-rules.md
+  oas3-unused-components-schema: false
+  operation-default-response: false
+  # Custom rules
+  tag-descriptions:
+    description: Tags must have a description.
+    given: $.tags[*]
+    severity: error
+    recommended: true
+    then:
+      field: description
+      function: truthy
+
+    operation-summary-formatted:
+      description: Operation `summary` should start with upper case and end with a dot.
+      recommended: false
+      type: style
+      given: "$.paths.*[?( @property === 'get' || @property === 'put' || @property ===
+      'post' || @property === 'delete' || @property === 'options' || @property ===
+      'head' || @property === 'patch' || @property === 'trace' )]"
+      then:
+        field: summary
+        function: pattern
+        functionOptions:
+          match: "^[A-Z].*\\.$"
+      tags:
+      - operation

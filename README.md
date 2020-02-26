@@ -9,7 +9,7 @@
   <h3 align="center">API Demo Docs</h3>
 <!-- vale on -->
   <p align="center">
-    Example API and related documentation for demos and Documentation showcases
+    Example (Open)API and reference documentation
     <br />
     <a href="https://github.com/ocular-d/api-demo-docs"><strong>Explore the docs »</strong></a>
     <br />
@@ -24,6 +24,7 @@
 ## Table of Contents
 
 - [About the Project](#about)
+- [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
@@ -43,6 +44,10 @@ This repository follows are *multi file approach* for APIs.
 API spec and docs (Markdown) are as separate files.
 
 The `assets` directory is used for *static* files, which are not related to APIs (documentation), like images used in the README.
+
+## Features
+
+- [Spectral](https://stoplight.io/open-source/spectral "Link to Website of Spectral") for OAS linting and validation
 
 ## Contributing
 
