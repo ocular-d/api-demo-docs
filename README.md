@@ -41,7 +41,7 @@ The documentation of the example APIs is inspired by [Stripe](https://stripe.com
 APIs are located in the directory `spec`.
 
 This repository follows are *multi file approach* for APIs.
-API spec and docs (Markdown) are as separate files.
+API spec and reference docs (Markdown) are separate files.
 
 The `assets` directory is used for *static* files, which are not related to APIs (documentation), like images used in the README.
 
