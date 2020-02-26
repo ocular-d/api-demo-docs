@@ -1,0 +1,3 @@
+# Lefthook
+
+Docs about lefthook

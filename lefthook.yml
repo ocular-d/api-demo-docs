@@ -2,5 +2,5 @@ pre-commit: # githook name
   commands: # list of commands
     editorial-audit: # command name
     #files: git diff --name-only HEAD @{push}
-      glob: "*.md" # glob filter for list of files
+      glob: "**/*.md" # glob filter for list of files
       run: vale {staged_files}
