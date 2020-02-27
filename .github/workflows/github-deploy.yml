@@ -2,7 +2,7 @@ name: integration
 on: [push]
 
 jobs:
-  integration-test:
+  gh-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -11,4 +11,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           BUILD_DIR: "docs/.vuepress/dist"
-          BUILD_SCRIPT: docs:build
+          BUILD_SCRIPT: npm run docs:build
