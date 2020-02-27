@@ -7,3 +7,6 @@ pre-commit: # githook name
 
     remark:
       run: remark --no-stdout docs/
+
+    lint-demo-api:
+      run: spectral lint -r .spectral.yml spec/demo/openapi.yaml
