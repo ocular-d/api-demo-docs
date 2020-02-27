@@ -4,6 +4,7 @@
 :bulb: OAS validation with Spectral
 :::
 
+<!-- markdown-link-check-disable-next-line -->
 ![Spectral in action](spectral-action.png)
 
 ## About
