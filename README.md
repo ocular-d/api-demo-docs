@@ -45,7 +45,7 @@ API spec and reference docs (Markdown) are separate files.
 
 The `assets` directory is used for *static* files, which are not related to APIs (documentation), like images used in the README.
 
-*To do:* Ad more info here
+*To do:* Ad more info here and the link to the site (https://ocular-d.github.io/api-demo-docs/)
 
 ## Features
 

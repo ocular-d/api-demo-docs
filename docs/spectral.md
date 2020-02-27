@@ -4,8 +4,11 @@
 :bulb: OAS validation with Spectral
 :::
 
-<!-- markdown-link-check-disable-next-line -->
+<!-- markdown-link-check-disable -->
+
 ![Spectral in action](spectral-action.png)
+
+<!-- markdown-link-check-disable -->
 
 ## About
 
@@ -19,7 +22,6 @@ Please refer to the [official docs](https://stoplight.io/p/docs/gh/stoplightio/s
 ## Configuration
 
 We use a combination of custom and the default [Spectral OAS](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/reference/openapi-rules.md "Link to Spectral OAS rules") rules.
-
 
 ```yaml
 extends: [[spectral:oas, all]]
@@ -56,7 +58,8 @@ rules:
 
 ### Breakdown
 
-We include the default [Spectral OAS](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/reference/openapi-rules.md "Link to Spectral OAS rules") rules, but we disable
+We include the default [Spectral OAS](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/reference/openapi-rules.md "Link to Spectral OAS rules")
+rules, but we disable
 [oas3-unused-components-schema](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/reference/openapi-rules.md?srn=gh/stoplightio/spectral/docs/reference/openapi-rules.md#oas3-unused-components-schema) and [operation-default-response](https://stoplight.io/p/docs/gh/stoplightio/spectral/docs/reference/openapi-rules.md?srn=gh/stoplightio/spectral/docs/reference/openapi-rules.md#operation-default-response).
 
 ```yaml
