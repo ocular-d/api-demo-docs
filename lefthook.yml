@@ -4,3 +4,6 @@ pre-commit: # githook name
     #files: git diff --name-only HEAD @{push}
       glob: "**/*.md" # glob filter for list of files
       run: vale {staged_files}
+
+    remark:
+      run: remark --no-stdout docs/
