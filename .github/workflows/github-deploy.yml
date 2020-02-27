@@ -1,4 +1,4 @@
-name: integration
+name: github-deploy
 on: [push]
 
 jobs:
