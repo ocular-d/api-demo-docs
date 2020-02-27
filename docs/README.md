@@ -1,4 +1,4 @@
-# Example (Open)API and reference documentation
+# OpenAPI and reference documentation
 
 ## About
 
