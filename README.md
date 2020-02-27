@@ -45,6 +45,8 @@ API spec and reference docs (Markdown) are separate files.
 
 The `assets` directory is used for *static* files, which are not related to APIs (documentation), like images used in the README.
 
+*To do:* Ad more info here
+
 ## Features
 
 - [Spectral](https://stoplight.io/open-source/spectral "Link to Website of Spectral") for OAS linting and validation
