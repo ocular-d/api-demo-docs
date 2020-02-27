@@ -8,3 +8,7 @@ and related (reference) documentation written in [Markdown](https://en.wikipedia
 ## Features
 
 - [Spectral](https://stoplight.io/open-source/spectral "Link to Website of Spectral") for OAS linting and validation
+
+## Repository Breakdown
+
+Add here more info

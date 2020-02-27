@@ -5,7 +5,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:lint:": "remark --no-stdout . docs/ .github/",
+    "docs:lint": "remark --no-stdout . docs/ .github/",
     "api:lint": "spectral lint -r .spectral.yml spec/api1/openapi.yaml"
   },
   "repository": {
