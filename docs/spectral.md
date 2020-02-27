@@ -4,6 +4,8 @@
 :bulb: OAS validation with Spectral
 :::
 
+![Spectral in action](spectral-action.png)
+
 ## About
 
 [Spectral](https://stoplight.io/p/docs/gh/stoplightio/spectral "Link to Spectral Docs"), an Open Source JSON/YAML Linter
