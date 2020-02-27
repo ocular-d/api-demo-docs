@@ -105,6 +105,7 @@ paths:
               schema: # response schema can be specified for each response
                 $ref: '#/components/schemas/User'
               example: # response example
+                value: {"foo": "bar"}
                 username: user1
                 email: user@example.com
         '403':
