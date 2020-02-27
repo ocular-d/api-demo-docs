@@ -1,0 +1,9 @@
+name: Truffelhog
+on: [push]
+
+jobs:
+  truffel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: edplato/trufflehog-actions-scan@master

@@ -1,0 +1,14 @@
+name: integration
+on: [push]
+
+jobs:
+  integration-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: testthedocs/github-pages-deploy-action@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          BUILD_DIR: "docs/.vuepress/dist"
+          BUILD_SCRIPT: docs:build
