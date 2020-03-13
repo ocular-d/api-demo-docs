@@ -1,11 +1,15 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/deda128a2434498fba079138b4eac9c0)](https://www.codacy.com/app/ocular-d/api-demo-docs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ocular-d/api-demo-docs&amp;utm_campaign=Badge_Grade)
+
 <!-- PROJECT LOGO -->
+
 <br />
 <p align="center">
   <a href="https://github.com/ocular-d/api-demo-docs">
-    <img src="assets/ocular-d-logo.png" alt="Logo" width="80" height="80">
+    <img src="docs/assets/ocular-d-logo.png" alt="Logo" width="80" height="80">
   </a>
+
 <!-- vale off -->
+
   <h3 align="center">API Demo Docs</h3>
 <!-- vale on -->
   <p align="center">
@@ -21,6 +25,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
 - [About the Project](#about)
@@ -36,16 +41,14 @@ and related documentation written in [Markdown](https://en.wikipedia.org/wiki/Ma
 
 The documentation of the example APIs is inspired by [Stripe](https://stripe.com/docs/api) and [GitHub](https://developer.github.com/v3/guides/getting-started/).
 
+Read the [documentation](https://ocular-d.github.io/api-demo-docs/ "Link to the project docs").
+
 ### Repository Structure
 
 APIs are located in the directory `spec`.
 
 This repository follows are *multi file approach* for APIs.
 API spec and reference docs (Markdown) are separate files.
-
-The `assets` directory is used for *static* files, which are not related to APIs (documentation), like images used in the README.
-
-*To do:* Ad more info here and the link to the site (https://ocular-d.github.io/api-demo-docs/)
 
 ## Features
 
